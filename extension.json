@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "apiVersion": "1.0.0",
+  "author": "Julian Mitchell",
+  "name": "Pulse Counter",
+  "description": "Live running count of rising edges, fed by the Simple Parallel analyser.",
+  "extensions": {
+    "Pulse Counter": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "PulseCounter.PulseCounter"
+    }
+  }
+}
